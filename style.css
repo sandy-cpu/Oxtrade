@@ -76,9 +76,9 @@ p{
 }
 
 .telegram {
-    width: 40%;
+    width: 50%;
     margin: auto;
-    padding: 0 ;
+    padding: 0 2%;
     height: 50px;
     line-height: 50px;
     font-size: 20px;
@@ -170,19 +170,5 @@ p{
     }
     .container {
         width: inherit;
-    }
-}
-@media (max-width: 768.5px) {
-   *{ margin-left: 0;
-    margin-right: 0;
-}
-    p, a {
-        font-size: 19.1px;
-    }
-    h1 {
-        font-size: 50px;
-    }
-    .logo {
-        height: 60px;
     }
 }
