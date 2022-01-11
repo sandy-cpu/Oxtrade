@@ -38,12 +38,6 @@ p{
     text-align: left;
 }
 
-@media (max-device-width: 1200px) {
-    .content {
-      text-align: center !important;
-    }
-  }
-
 .loginbutton {
     text-align: center;
     margin: 10px;
@@ -150,8 +144,15 @@ p{
 .button:hover {
     opacity: 0.8;
 }
-@media (max-width: 1200px) {
-    h1, p {
+.button:active {
+    border: 1px solid yellow;
+}
+.button a:active {
+    color: yellow;
+    text-decoration: none;
+}
+@media (max-width: 991.5px) {
+    h1, p, .videoinfo {
         text-align: center !important;
         margin-left: 0 !important;
     }
@@ -167,4 +168,12 @@ p{
     .footertext {
         margin-left: 5% !important;
     }
+    .container {
+        width: inherit;
+    }
+}
+@media (max-width: 768.5px) {
+   *{ margin-left: 0;
+    margin-right: 0;
+}
 }
