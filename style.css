@@ -67,6 +67,11 @@ p{
     padding: 100px 0;
 }
 
+iframe {
+    width: 90%;
+    aspect-ratio: 16/9;
+}
+
 .trabar {
     padding-bottom: 50px;
 }
@@ -167,8 +172,5 @@ p{
     }
     .footertext {
         margin-left: 5% !important;
-    }
-    .container {
-        width: inherit;
     }
 }
