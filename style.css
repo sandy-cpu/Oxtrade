@@ -174,6 +174,8 @@ iframe {
     .footertext {
         margin-left: 5% !important;
     }
+}
+@media (max-width: 767.5px) {
     h1{
         font-size: 30px !important ;
     }
