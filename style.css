@@ -40,6 +40,7 @@ p{
 }
 
 .loginbutton {
+    position: relative;
     text-align: center;
     margin: 10px;
     padding: 0 ;
@@ -57,6 +58,19 @@ p{
 
 .loginbutton a:hover {
     text-decoration: none;
+}
+
+.legend {
+    font-weight: 500;
+    font-size: 9px;
+    padding: 0 3px;
+    background-color: #13161d;
+    height: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: -5px;
+    left: 70%;
+    width: auto;
 }
 
 .videoinfo {
@@ -161,6 +175,11 @@ iframe {
     color: yellow;
     text-decoration: none;
 }
+@media (max-width: 1200px){
+    .legend {
+        left: 60%;
+    }
+}
 @media (max-width: 991.5px) {
     h1, p, .videoinfo {
         text-align: center !important;
@@ -179,6 +198,9 @@ iframe {
     .footertext {
         margin-left: 5% !important;
     }
+    .legend {
+        left: 80%;
+    }
 }
 @media (max-width: 767.5px) {
     h1{
@@ -193,5 +215,9 @@ iframe {
     }
     .header {
         margin-top: 50px !important;
+    }
+    .legend {
+        font-size: 7px;
+        left: 75% !important;
     }
 }
