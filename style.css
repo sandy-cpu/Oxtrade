@@ -164,6 +164,7 @@ iframe {
     .logo{
         display: block !important;
         text-align: center !important;
+        margin-left: 0;
     }
     .contactus{
         display: block !important;
@@ -172,5 +173,11 @@ iframe {
     }
     .footertext {
         margin-left: 5% !important;
+    }
+    h1{
+        font-size: 30px !important ;
+    }
+    p,a {
+        font-size: 11.46px !important;
     }
 }
