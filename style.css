@@ -60,11 +60,6 @@ p{
     text-decoration: none;
 }
 
-.button:hover {
-    background-color: #1ad851;
-    border-color: transparent;
-}
-
 .legend {
     font-weight: 500;
     font-size: 9px;
@@ -173,14 +168,18 @@ iframe {
 }
 .button:hover {
     opacity: 0.8;
-}
-.button:active {
-    border: 1px solid yellow;
+    background-color: #1ad851;
+    border-color: transparent;
 }
 .button a:active {
     color: yellow;
     text-decoration: none;
 }
+
+.button a:link {
+    text-decoration: none;
+}
+
 @media (max-width: 1200px){
     .legend {
         left: 60%;
