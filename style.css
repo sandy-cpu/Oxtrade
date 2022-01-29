@@ -144,28 +144,22 @@ iframe {
 .contactus a:hover{
     text-decoration: none;
 }
-.footer {
-    height: 50px;
+
+.termcondition {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: left !important;
 }
-.footer p{
-    margin-bottom: 0;
-    line-height: 50px;
-    margin-left: 5%;
-    text-align: left;
-    float: left;
+
+.termcondition h1 {
+    margin-bottom: 20px;
 }
-.footer img {
-    margin: 15px;
-    height: 20px;
-    float: right;
+
+li {
+    font-size: 15.28px;
+    font-weight: 400;
 }
-.jiwacuan {
-    margin-right: 30px !important;
-}
-.footericon {
-    height: 25px !important;
-    margin: 12.5px 15px !important;
-}
+
 .button:hover {
     opacity: 0.8;
     background-color: #1ad851;
@@ -213,6 +207,9 @@ iframe {
         line-height: 20px !important;
     }
     p,a {
+        font-size: 11.46px !important;
+    }
+    li {
         font-size: 11.46px !important;
     }
     .logo {
